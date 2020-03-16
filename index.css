@@ -1,0 +1,80 @@
+body {
+  margin: 3em;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title{
+  font-size: 3em;
+  margin-bottom: 10px;;
+  text-align: center;
+}
+
+.square{
+  width: 100px;
+  height: 100px;
+  border-color: #fff;
+  border-width: thin;
+  border-style: solid;
+  background: #000;
+  font-size: 4em;
+  text-align: center;
+  display: table-cell;
+  line-height: 100px;
+  color: #000;
+}
+.clickedSquare{
+  width: 100px;
+  height: 100px;
+  border-color: #fff;
+  border-width: thin;
+  border-style: solid;
+  background: #000;
+  font-size: 4em;
+  text-align: center;
+  display: table-cell;
+  line-height: 100px;
+  color: #fff;
+}
+
+.square:hover{
+  background-color: rgb(51, 122, 255);
+  cursor: pointer;
+}
+
+.board{
+  margin: auto;
+  display: table;
+  border-style: solid;
+  border-color: #fff;
+  border-width: thin;
+  padding: 15px;
+  padding-bottom: 15px;
+  background-color: #000
+}
+
+.status{
+  margin-top: 1em;
+  text-align: center;
+}
+
+.restart{
+  border-style: solid;
+  border-width: thin;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+}
+
